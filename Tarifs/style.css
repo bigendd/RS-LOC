@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+font-family: 'poppins', sans-serif;
+margin: 0;
+padding: 0;
+text-decoration: none;
+text-transform: none;
+list-style: none;
+}
+body {
+  background-color: aliceblue;
+}
+.logoo {
+    width: 4.5cm;
+    margin-left: 1cm;
+    cursor: pointer;
+  }
+ .img{
+    width:100%;
+    height: 93vh;
+  }
+h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+  .des {
+    margin-left: 5cm;
+    margin-top: 1cm;
+  }
+  h2 {
+    padding-bottom: 0.5cm;
+  }
+  .juju {
+   width: 83%;
+   font-size: 15px;
+  }
+  header {
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    height: 1.5cm;
+    width: 100%;
+    position: relative;
+  }
+  header ul{ 
+    list-style: none;
+    display: flex;
+  }
+  header ul li {
+    margin: 0 40px;
+  }
+  header ul li a {
+    color: rgb(0, 0, 0);
+    position: relative;
+  }
+  header ul li a::before {
+    bottom: 0;
+    transition: 0.5s;
+    position: absolute;
+    height: 3px;
+    width: 0;
+    content: '';
+  background-color: brown;
+    border-radius: 6px;
+  }
+ .RES {
+  text-decoration-line: underline;
+  text-decoration-color: brown ;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+ }
+  header ul li a:hover::before{
+    width: 100%;
+  }
+  .btn {
+    background: rgb(233, 85, 85);
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #1f1f1f;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+  }
+  .btn.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+  }
+  #bigTitle{
+    font-weight: 800;
+    color: transparent;
+    font-size:120px;
+    background: url("astronomy-1867616_960_720.jpg") repeat;
+    -webkit-background-clip: text;
+   position: relative;
+    text-align:center;
+    margin-bottom: -5cm;
+  }
+form {
+ 
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+  height: 31cm;
+  background-color: white;
+
+}
+.a{
+
+  padding-top: 5%;
+
+  width: 30%;
+  height: 1cm;
+margin-left: 3%;
+font-weight: 600;
+
+}
+.log{
+  width: 20%;
+  height: 20%;
+  margin-top: 10%;
+  margin-left: 10%;
+  
+}
+.bmw{
+  width: 60%;
+  height: 60%;
+  margin-left: 50%;
+  margin-top: -20%;
+}
+.hr{ 
+  
+  border:         none;
+  border-left:    1px solid hsla(200, 10%, 5%,100);
+  height:         3cm;
+  width:          1px;  
+  margin-left: 120%;    
+margin-top: -3.9cm;
+}
+.par {
+ 
+ 
+}
+.r{
+ padding-right: 3%;
+  
+}
+.t{
+  padding-right: 3%;
+  
+}
+.y{
+  
+}
+.cmn {
+  display: flex;
+  color: rgb(0, 0, 0);
+  height: 1.5cm;
+  width: 58%;
+  position: relative;
+  text-align: center;
+  margin-left: 42%;
+  margin-top: -4%;
+  height: 1cm;
+}
+.QW{
+  color: rgb(238, 5, 5);
+  font-weight: 600;
+}
+.u{
+ font-size: 10px;
+
+ width: 58%;
+ margin-left: 42%;
+
+  
+}
+.i{
+  
+  margin-left: 52%;
+  width: 58%;
+ 
+  margin-top: 3%;
+
+  color: rgb(0, 0, 0);
+ 
+}
+button {
+  margin-right: 5%;
+  width: 170px;
+  height: 40px;
+  border-radius: 3px;
+  background: linear-gradient(to right, black 50%, brown 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+button:hover {
+  background-position: left bottom;
+  color: white;
+}
+.p{
+  
+}
+.hy {
+  margin-top: 2%;
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+
+
+
+
+
+h5{
+  font-weight: 400;
+  font-size: larger;
+  float: left;
+  margin-top:0.3cm;
+
+}
+.SP {
+margin-left: 5%;
+padding-top: 1cm;
+width: 15cm;
+
+}
+.Number {
+margin-left: 0.5cm;
+  color: rgb(0, 0, 0); 
+ 
+
+}
+.Mail {
+  margin-left: 0.5cm;
+  color: black;
+ 
+}
+#snap {
+margin-left: 1cm ;
+background-color: blue;
+}
+#fafa  {
+
+padding-right: 10px;
+}
+#fada{
+  padding-right: 10px;
+}
+.Number:hover{
+  color: rgb(255, 16, 16);
+  transition: 0.5s;
+}
+.Mail:hover{
+  color: rgb(255, 16, 16);
+  transition: 0.5s;
+}
+/*
+.Mail::before {
+content: '';
+display: inline-block;
+height: 30px;
+width: 30px;
+background-size: cover;
+background-image: url(gmail-new.png);
+background-repeat: no-repeat;
+margin-right: 10px;
+background-position: center center;
+vertical-align: middle;
+}
+.Number::before {
+content: '';
+display: inline-block;
+height: 30px;
+width: 30px;
+background-size: cover;
+background-image: url(icons8-téléphone-30.png);
+background-repeat: no-repeat;
+margin-right: 10px;
+background-position: center center;
+vertical-align: middle;   
+}*/
+.loGoo {
+  width: 6cm;
+margin-left: 45%;
+  cursor: pointer;
+ margin-top: -2.2cm;
+}
+.fio {
+float: right;
+width: 18%;
+margin-right:3cm ;
+
+}
+.res {
+margin-top: -1.8cm;
+}
+/*
+.snap {
+content: '';
+display: inline-block;
+height: 40px;
+width: 40px;
+background-size: cover;
+background-image: url(icons8-snapchat-logo-encerclé-48\ \(1\).png);
+background-repeat: no-repeat;
+margin-top: -7px;
+background-position: center center;
+vertical-align: middle;
+cursor: pointer;
+margin-right: 2cm;
+float: right ;
+ } */
+footer {
+ margin-top: 3%;
+  background-color: white;
+}
